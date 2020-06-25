@@ -3,9 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Importing normalize, bootstrap, fontawesome, and my own css -->
+    <link rel="stylesheet" href="assets/stylesheets/normalize.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/stylesheets/style.css">
+
     <title>EP Portfolio</title>
 </head>
 <body>
-    
+
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <img class="myLilImg" src="assets/img/lilme.png">
+        <a class="navbar-brand" href="index.html">Eric Purrington</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <a class="nav-item nav-link" href="index.html">Home</a>
+            <a class="nav-item nav-link" href="#About">About</a>
+            <a class="nav-item nav-link" href="#Projects">Projects</a>
+            <a class="nav-item nav-link" href="#Contact">Contact</a>
+        </div>
+    </nav>
+
+    <div class="card text-center heroCard">
+        <div class="card-body">
+            <h3>Seasoned Barista turned Full-Stack Web Developer</h3>
+            <img class="myImg" src="assets/img/hike.jpg" alt="Picture of me">
+            <p>A creative problem solver with a propensity towards perfectionism.</p>
+        </div>
+    </div>
+
+    <a name="About"></a>
+
+    <div class="container-fluid aboutContainer text-center">
+        <h1>Heya, I'm Eric. Welcome!</h1>
+        <div class="container-fluid smallerCon">
+            <h5>I currently work as a Shift Lead at Cloud City Coffee in Seattle, WA. The most demanding duties I face are badly tempered customers, making quality drinks, and not having enough mental stimulation. About six months ago, I decided to take the next step towards creating a more fulfilling life for myself. I chose to continue my education with a Full-Stack Web Development Bootcamp through the University of Washington in order to pursue my drive for a new and stimulating challenge.</h5>
+            <h5>I now am fully and inexplicably in love with coding. I'm looking for projects and challenges that will allow me to advance my skills and further my passion. For a short time only, I will be accepting   payment in the form of experience. Have an idea for a project? <a class="linkInText" href="mailto:eric.purrington@gmail.com">Email Me</a></h5>
+            <h5>Interested in working together? Check out my <a class="linkInText" href="Assets\Resume (New)_4.25.pdf" target="_blank">Resume</a></h5>
+        </div>
+    </div>
+
+    <a name="Projects"></a>
+
+    <div class="container-fluid projectsContainer text-center">
+        <h1>Collaborations</h1>
+        <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="card text-center animate__bounceInLeft">
+                    <div class="card-header">
+                      Featured
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                      2 days ago
+                    </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="card text-center animate__bounceInRight">
+                    <div class="card-header">
+                      Featured
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                      2 days ago
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Importing bootstrap js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 </html>
