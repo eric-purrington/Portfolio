@@ -50,8 +50,8 @@ body, html {
     margin-top: 200px;
 }
 
-.projectsContainer h1 {
-    margin: 25px;
+.collabCon {
+    margin-bottom: 50px;
 }
 
 .smallerCon h5 {
@@ -60,7 +60,10 @@ body, html {
 
 .col-sm-6 .card {
     color: #343a40;
-    margin: 10px;
+}
+
+.row {
+    margin: 20px auto;
 }
 
 .fab, .fas {
@@ -70,4 +73,12 @@ body, html {
 .col-sm-6 .card .card-body a {
     background-color: #343a40;
     border: 1px solid #0056b3;
+}
+
+.card-body .underConstruction:hover {
+    cursor: not-allowed;
+}
+
+.card-header {
+    font-size: large;
 }
