@@ -1,6 +1,6 @@
 /* Scrollbar changes*/
 ::-webkit-scrollbar {
-    width: 8px;
+    width: 5px;
 }
 
 ::-webkit-scrollbar-track {
@@ -8,11 +8,11 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #24b273;
+    background: #343a40;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #243d44;
+    background: #24b273;
 }
 
 body, html {
@@ -24,42 +24,6 @@ body, html {
     font-size: larger;
     color: white;
 }
-/* .hero-image {
-    background-image: url("../img/TreeHero.jpg");
-    height: 300px;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-} */
-/* .navbar {
-    margin-top: 20px;
-} */
-/* .nav-wrapper .right li a {
-    height: 80px;
-    color: #243d44;
-    font-weight: bold;
-    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-} */
-
-/* Make the navbar stick to top */
-/* .sticky {
-    position: fixed;
-    top: 0;
-    width:100%;
-} */
-/* 
-.heroContainer{
-    text-align: center;
-    margin: 150px 0px;
-    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.heroContainer h1 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-bottom: 70px;
-    font-weight: bold;
-    color: #243d44;
-} */
 
 .myLilImg {
     height: 100px;
@@ -69,7 +33,7 @@ body, html {
 }
 
 .heroCard {
-    margin: 50px 5px;
+    margin: 100px 5px;
     border: 0px solid black;
 }
 
@@ -79,12 +43,31 @@ body, html {
     border-radius: 200px;
 }
 
-.aboutContainer {
+.aboutContainer, .projectsContainer, .footer {
     background-color: #343a40;
     color: white;
-    padding: 30px 10px;
+    padding: 50px 10px;
+    margin-top: 200px;
+}
+
+.projectsContainer h1 {
+    margin: 25px;
 }
 
 .smallerCon h5 {
     margin-top: 30px;
+}
+
+.col-sm-6 .card {
+    color: #343a40;
+    margin: 10px;
+}
+
+.fab, .fas {
+    margin: 10px;
+}
+
+.col-sm-6 .card .card-body a {
+    background-color: #343a40;
+    border: 1px solid #0056b3;
 }
