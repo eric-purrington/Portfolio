@@ -75,6 +75,10 @@ body, html {
     border: 1px solid #0056b3;
 }
 
+.col-sm-6 .card .card-body a:hover {
+    background-color: #24b273;
+}
+
 .card-body .underConstruction:hover {
     cursor: not-allowed;
 }
